@@ -1,0 +1,40 @@
+if you wish to reproduce this project the falowing hardware list may be of assistance.
+
+board: Raspberry Pi Zero 2w
+thermocouple amp: MAX 31855
+roaster: popper gen 2
+dac: MCP4728
+
+
+Popper coffee roaster
+
+Grey 2025 / 3rd production-run Popper
+7 numbered stepped heat levels
+Improved fan motor
+Built-in 7 minute roast + 3 minute cooldown cycle
+
+
+Raspberry Pi Zero 2w
+Hostname: RoastPi
+Runs the control service
+Creates the PopperRoaster Wi-Fi network
+
+
+MAX31855 thermocouple amplifier
+
+Reads bean temperature
+Uses SPI
+SPI device: /dev/spidev0.0
+Code uses SPI bus 0, device 0
+Speed: 5,000,000 Hz
+
+
+MCP4728 DAC
+
+I2C address: 0x60
+I2C bus: 1
+Reference voltage: 5.0 V
+DAC Channel B / channel 1: heat output
+
+
+5v power suply for Raspberry Pi
