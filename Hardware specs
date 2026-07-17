@@ -15,11 +15,13 @@ Built-in 7 minute roast + 3 minute cooldown cycle
 
 
 Raspberry Pi Zero 2w
-https://www.amazon.com/dp/B0GVC3H9WC/?coliid=I98VJP05ATJV8&colid=2AOLKRJ0U7HFS&psc=0&ref
+https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/
 Hostname: RoastPi
 Runs the control service
 Creates the PopperRoaster Wi-Fi network
 
+Thermocouple
+https://www.amazon.com/dp/B07PMW21N2/?coliid=I3G5PRXYIT1K3L&colid=2AOLKRJ0U7HFS&psc=1&ref
 
 MAX31855 thermocouple amplifier
 https://www.amazon.com/dp/B0CNXHQFWX/?coliid=I12BZOCLBNF8SK&colid=2AOLKRJ0U7HFS&psc=1&ref
