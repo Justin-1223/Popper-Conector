@@ -7,7 +7,7 @@ dac: MCP4728
 
 
 Popper coffee roaster
-
+https://www.sweetmarias.com/collections/popper/products/popper
 Grey 2025 / 3rd production-run Popper
 7 numbered stepped heat levels
 Improved fan motor
@@ -15,13 +15,14 @@ Built-in 7 minute roast + 3 minute cooldown cycle
 
 
 Raspberry Pi Zero 2w
+https://www.amazon.com/dp/B0GVC3H9WC/?coliid=I98VJP05ATJV8&colid=2AOLKRJ0U7HFS&psc=0&ref
 Hostname: RoastPi
 Runs the control service
 Creates the PopperRoaster Wi-Fi network
 
 
 MAX31855 thermocouple amplifier
-
+https://www.amazon.com/dp/B0CNXHQFWX/?coliid=I12BZOCLBNF8SK&colid=2AOLKRJ0U7HFS&psc=1&ref
 Reads bean temperature
 Uses SPI
 SPI device: /dev/spidev0.0
@@ -30,7 +31,7 @@ Speed: 5,000,000 Hz
 
 
 MCP4728 DAC
-
+https://www.amazon.com/dp/B09FF5J5WJ/?coliid=I2VB530UP3G7YW&colid=2AOLKRJ0U7HFS&psc=1&ref
 I2C address: 0x60
 I2C bus: 1
 Reference voltage: 5.0 V
@@ -38,3 +39,9 @@ DAC Channel B / channel 1: heat output
 
 
 5v power suply for Raspberry Pi
+
+32GB micro sd card
+https://www.amazon.com/dp/B00M55C0NS/?coliid=IEUPNZBTT64CH&colid=2AOLKRJ0U7HFS&ref
+
+
+Notes: If the thermocouple amplifier board is too close to the Pi, the Wi-Fi antenna will cause interference in your temperature readings.
