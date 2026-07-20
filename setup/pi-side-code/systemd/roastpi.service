@@ -1,0 +1,16 @@
+[Unit]
+Description=Popper Connector Raspberry Pi service
+Wants=NetworkManager.service
+After=NetworkManager.service network.target
+
+[Service]
+Type=simple
+User=popper
+WorkingDirectory=/home/popper/Popper-Conector/setup/pi-side-code
+ExecStart=/home/popper/Popper-Conector/setup/pi-side-code/.venv/bin/python tools/run_real_server.py --host 0.0.0.0 --port 8080 --path /WebSocket --log-dir logs
+Restart=on-failure
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

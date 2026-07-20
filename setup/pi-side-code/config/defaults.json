@@ -1,0 +1,62 @@
+{
+  "mode": "fake",
+  "websocket": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "path": "/WebSocket"
+  },
+  "heat_control": {
+    "control_window_seconds": 1.0,
+    "calibration": [
+      {
+        "setting": 1,
+        "total_power_watts": 820,
+        "estimated_heater_watts": 745,
+        "voltage_range": [5.0, 4.6],
+        "output_voltage": 4.8
+      },
+      {
+        "setting": 2,
+        "total_power_watts": 913,
+        "estimated_heater_watts": 838,
+        "voltage_range": [4.5, 3.8],
+        "output_voltage": 4.15
+      },
+      {
+        "setting": 3,
+        "total_power_watts": 973,
+        "estimated_heater_watts": 898,
+        "voltage_range": [3.6, 2.9],
+        "output_voltage": 3.25
+      },
+      {
+        "setting": 4,
+        "total_power_watts": 1050,
+        "estimated_heater_watts": 975,
+        "voltage_range": [2.8, 2.2],
+        "output_voltage": 2.5
+      },
+      {
+        "setting": 5,
+        "total_power_watts": 1130,
+        "estimated_heater_watts": 1055,
+        "voltage_range": [2.1, 1.4],
+        "output_voltage": 1.75
+      },
+      {
+        "setting": 6,
+        "total_power_watts": 1190,
+        "estimated_heater_watts": 1115,
+        "voltage_range": [1.2, 0.5],
+        "output_voltage": 0.85
+      },
+      {
+        "setting": 7,
+        "total_power_watts": 1250,
+        "estimated_heater_watts": 1175,
+        "voltage_range": [0.4, 0.0],
+        "output_voltage": 0.2
+      }
+    ]
+  }
+}
